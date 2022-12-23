@@ -10,6 +10,7 @@ class TestLogin:
 
     def test_login(self, driver):
         '''验证用户登录功能'''
+        """已经离职了"""
         urlInfo = url['url']['testUrl']
         if urlInfo == "https://www.isheji.com":
             username = userinfo['userinfo']['online']['vipUser']['username']
